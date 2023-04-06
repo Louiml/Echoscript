@@ -1,0 +1,14 @@
+funccmd<greet>[
+out Hello, EchoScript!
+]
+
+funccmd<bye>[
+out Goodbye, EchoScript!
+]
+
+addvar name =e= John
+addvar age =e= 30
+
+greet
+bye
+out $age$
